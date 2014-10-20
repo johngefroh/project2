@@ -37,7 +37,7 @@ HEADING
 header {
   border: 1px solid rgba(255,255,255,0.8);
   margin-bottom: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
   position: relative;
   text-align: center;
 }
