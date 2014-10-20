@@ -92,15 +92,14 @@ FOOTER
 **************************/
 
 footer {
-  font-size: 0.75em;
-  text-align: center;
   clear: both;
+  font-size: .80em;
   padding-top: 50px;
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 1.6em;
+  height: 1.6em;
   margin: 0 5px;
 }
 
