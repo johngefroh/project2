@@ -34,8 +34,7 @@ img {
 HEADING
 **************************/
 
-header {
-  border: 1px solid rgba(255,255,255,0.8);
+header {4
   margin-bottom: 5px;
   border-radius: 5px;
   position: relative;
@@ -157,34 +156,43 @@ body {
 }
 
 /* header  */
-header {
-    
+header h1 {
+  color: #black;
+}
+
+header h2 {
+  color: #03B4B3;
 }
 
 /* nav background on mobile */
 nav {
+  color: #03B4B3;
 }
 
 /* links  */
 a {
-  color: #009688;
+  color: #03B4B3;
 }
 
 /* selected nav link  */
 nav a.selected, nav a:hover {
-  color: #009688;
+  color: #fff;
 }
 
 section {
-  color: black;
+  color: #03B4B3;
 }
 
 aside {
+  color: #03B4B3;
+}
+
+aside p {
   color: black;
 }
 
 footer {
-  color: black;
+  color: #03B4B3;
 }
 
 
