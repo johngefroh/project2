@@ -1,0 +1,105 @@
+/****  RESPONSIVE Single Column LAYOUTv****/
+
+@media screen and (mix-width: 480px) {
+ /*************************
+  TWO COLUMN LAYOUT
+  **************************/
+
+ /*************************
+ PAGE: PORTFOLIO
+  **************************/  
+ /* 
+  3 * 5% = 15%
+  100% - 15% =85%
+  85 /3 = 28.333333
+  */  
+
+/*************************
+  ABOUT
+ **************************/
+}
+
+
+/****  Desktops  ****/
+
+@media screen and (min-width: 600px) {
+  
+  /*************************
+  HEADER
+  **************************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  } 
+
+  logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }  
+
+ h1 {
+    font-weight: 700;
+    font-size: 2em;
+  } 
+    
+  h2 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+  }
+
+  header {
+    border-bottom: 5px solid black;
+    margin: 60px;
+  }
+
+  aside {
+    float: left;
+    width: 10%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
