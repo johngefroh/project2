@@ -86,7 +86,6 @@ nav li {
 nav a {
   font-weight: 300;
   padding: 15px 10px;
-  color: #009688;
 }
 
 /*************************
@@ -98,7 +97,6 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #009688; /*Main - Teal*/
 }
 
 .social-icon {
@@ -155,23 +153,16 @@ COLORS
 **************************/
 /* site body  */
 body {
-  color:#fff;
+
 }
 
-/* white header  */
+/* header  */
 header {
-  background: #009688;
-  border-color: black;
+    
 }
 
 /* nav background on mobile */
 nav {
-  background: #009688;
-}
-
-/* logo text  */
-h1, h2 {
-  color: #fff;
 }
 
 /* links  */
@@ -179,16 +170,22 @@ a {
   color: #009688;
 }
 
-/* nav link  */
-nav a, nav a:visited {
-  color: #fff;
-}
-
 /* selected nav link  */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #009688;
 }
 
+section {
+  color: black;
+}
+
+aside {
+  color: black;
+}
+
+footer {
+  color: black;
+}
 
 
 
