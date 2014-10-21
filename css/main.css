@@ -10,16 +10,23 @@
 GENERAL
 **************************/
 
+html {
+  position: relative;
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0 auto;
-  max-width: 95%;
 }
 
 #wrapper {
-max-width: 95%;
-margin: 0 auto;
-padding: 0 5%;
+  min-height: 800px;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-flex;
+  display:         flex;
+  -webit-flex-flow: row;
+         flex-flow: row;
 }
 
 a {
@@ -27,37 +34,36 @@ a {
 }
 
 img {
-  max-width: 100%;
+    
 }
 
 /*************************
 HEADING
 **************************/
 
-header {
-  margin-bottom: px;
-  border-radius: 5px;
-  text-align: center;
+header, footer {
+ display: block;
+ margin: 4px;
+ padding: 5px;
+ min-height: 50px;
+ border: 1px solid #eebb55;
+ border-radius: 7pt;
+ background: #ffeebb;
+ text-align: center;
 }
 
 .logo {
-  margin 0;
+ 
 }
 
-h1 {
-text-align: center;
-font-family: 'Roboto', sans-serif;
-margin: 0 auto;
-font-size: 1.75em;
-line-height: 0.8cm;
-font-weight: 700;
+header h1 {
+font-size: 3em;
+font-weight: 300;
 }
 
-h2 {
-  text-align: center;
-  font-size: 0.65cm;
-  margin: -5px 0 0;
-  font-weight: 500;
+header h2 {
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 /*************************
@@ -66,14 +72,19 @@ NAVIGATION
 
 nav {
   text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+  margin: 4px;
+  padding: 5px;
+  border: 1px solid #cccc33;
+  border-radius: 7pt;
+  background: #dddd88;
+  -webkit-flex: 3 1 60%;
+          flex: 3 1 60%;
+  -webkit-order: 1;
+          order: 1;
 }
 
 nav ul {
   list-style: none;
-  margin-left: 0 10px;
-  margin-right: 0;
 }
 
 nav li {
@@ -89,47 +100,56 @@ nav a {
 FOOTER
 **************************/
 
-footer {
-  clear: both;
-  font-size: .80em;
-  padding-top: 50px;
-}
+/*footer {
+  text-align: center;
+  font-size: .90em;
+  font-weight: 300;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 100px;
+}*/
 
-.social-icon {
+/* .social-icon {
   width: 1.6em;
   height: 1.6em;
   margin: 0 5px;
-}
+}*/
 
 /*************************
 PAGE: HOME
 **************************/
 
-#wrapper {
-  margin-bottom: 10px;
-  border-radius: 3px;
-  text-align: center;
-} 
-
 section {
-  margin: 0;
-  padding: 0;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7pt;
+    background: #dddd88;
+    -webkit-flex: 3 1 60%;
+            flex: 3 1 60%;
+    -webkit-order: 2;
+            order: 2;
 }
 
 aside {
-  float: right;
-  margin-bottom: 10px;
-  border-radius: 3px;
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ccccff;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 3;
+           order: 3;
 }
 
 .sidebar_img {
-  margin 0;
+
 }
 
 aside p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
+
 }
 
 /*************************

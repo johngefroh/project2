@@ -29,13 +29,19 @@
   **************************/
 
   nav {
-    background: none;
     float: right;
     font-size: 1.125em;
-    margin-right: 5%;
     text-align: right;
-    width: 45%;
+    width: 40%;
   } 
+    
+  nav li {
+  
+  }
+    
+  nav a {
+  
+  }
 
   .logo {
     float: left;
@@ -43,35 +49,34 @@
     width: 15%;
   }  
 
- h1 {
+  header {
+    border-bottom: 5px solid black;
+    margin: 60px;
+  }    
+    
+  header h1 {
     font-weight: 700;
     font-size: 2em;
   } 
     
-  h2 {
+  header h2 {
     font-weight: 400;
     font-style: italic;
     font-size: 1.5em;
   }
 
-  header {
-    border-bottom: 5px solid black;
-    margin: 60px;
-  }
-
   section {
-    float: left;
-    width: 10%;
+    width: 50%;
   }
 
   aside {
-    float: right;
-    width: 10%;
+    float: left;
+    width: 20%;
   }
 
-footer {
-  clear: both;
-}
+  footer {
+    clear: both;
+  }
 
 
 }
