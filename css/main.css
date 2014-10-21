@@ -17,7 +17,7 @@ body {
 }
 
 #wrapper {
-max-width: 940px;
+max-width: 95%;
 margin: 0 auto;
 padding: 0 5%;
 }
@@ -35,7 +35,7 @@ HEADING
 **************************/
 
 header {4
-  margin-bottom: 5px;
+  margin-bottom: px;
   border-radius: 5px;
   position: relative;
   text-align: center;
@@ -50,7 +50,6 @@ text-align: center;
 font-family: 'Roboto', sans-serif;
 margin: 15px 0;
 font-size: 1.75em;
-font-weight: normal;
 line-height: 0.8cm;
 font-weight: 700;
 }
