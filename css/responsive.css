@@ -29,10 +29,6 @@
   **************************/
 
   nav {
-    float: right;
-    font-size: 1.125em;
-    text-align: right;
-    width: 40%;
   } 
     
   nav li {
@@ -44,38 +40,30 @@
   }
 
   .logo {
-    float: left;
-    margin-left: 5%;
-    width: 15%;
+    
   }  
 
   header {
-    border-bottom: 5px solid black;
-    margin: 60px;
   }    
     
   header h1 {
-    font-weight: 700;
-    font-size: 2em;
+
   } 
     
   header h2 {
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.5em;
+    
   }
 
   section {
-    width: 50%;
+      
   }
 
   aside {
-    float: left;
-    width: 20%;
+
   }
 
   footer {
-    clear: both;
+    
   }
 
 
