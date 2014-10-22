@@ -41,15 +41,17 @@ img {
 HEADING
 **************************/
 
-header, footer {
- display: block;
- margin: 4px;
- padding: 5px;
- min-height: 50px;
- border: 1px solid #eebb55;
- border-radius: 7pt;
- background: #ffeebb;
- text-align: center;
+header {
+  text-align: center;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 7pt;
+  background: #fff;
+  -webkit-flex: 3 1;
+          flex: 3 1;
+  -webkit-order: 1;
+          order: 1;
+ background: #dddd88;
 }
 
 .logo {
@@ -66,12 +68,6 @@ header h2 {
   font-weight: 300;
 }
 
-.social-icon {
-  width: 1.6em;
-  height: 1.6em;
-  margin: 0 5px;
-}
-
 /*************************
 NAVIGATION
 **************************/
@@ -80,11 +76,10 @@ nav {
   text-align: center;
   margin: 4px;
   padding: 5px;
-  border: 1px solid #cccc33;
   border-radius: 7pt;
-  background: #dddd88;
-  -webkit-flex: 3 1 60%;
-          flex: 3 1 60%;
+  background: #fff;
+  -webkit-flex: 3 1;
+          flex: 3 1;
   -webkit-order: 1;
           order: 1;
 }
@@ -105,6 +100,25 @@ nav a {
 /*************************
 FOOTER
 **************************/
+
+footer {
+  text-align: center;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 7pt;
+  background: #fff;
+  -webkit-flex: 3 1;
+          flex: 3 1;
+  -webkit-order: 1;
+          order: 1;
+background: #dddd88;
+}
+
+.social-icon {
+  width: 1.6em;
+  height: 1.6em;
+  margin: 0 5px;
+}
 
 /*footer {
   text-align: center;
@@ -129,7 +143,6 @@ PAGE: HOME
 section {
     margin: 4px;
     padding: 5px;
-    border: 1px solid #cccc33;
     border-radius: 7pt;
     background: #dddd88;
     -webkit-flex: 3 1 60%;
@@ -141,7 +154,6 @@ section {
 aside {
    margin: 4px;
    padding: 5px;
-   border: 1px solid #8888bb;
    border-radius: 7pt;
    background: #ccccff;
    -webkit-flex: 1 6 20%;
@@ -159,24 +171,9 @@ aside p {
 }
 
 /*************************
-PAGE: 
-**************************/
-
-/*************************
-PAGE: 
-**************************/
-
-/*************************
-PAGE: 
-**************************/
-
-/*************************
 COLORS 
 **************************/
-/* site body  */
-body {
 
-}
 
 /* header  */
 header h1 {
