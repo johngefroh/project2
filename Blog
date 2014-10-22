@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Bumblebee Massage</title>
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+  <style type="text/css">
+  </style>
+</head>
+<body>
+
+<!--  HEADER + NAV + LOGO + NAME  -->  
+<header>
+        <a href="/"><img src="imgs/logo_header.png" class="logo" height="120" width="120" alt="headerLogo"/></a>
+        <h1>Bumblebee Massage</h1>
+        <h2>Fly Away With Us</h2>
+
+<!--  NAVIGATION  --> 
+<nav>
+        <ul>
+            <li><a href="massage.html">Massage</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+  </nav>
+
+</header> 
+
+<!--  MAIN CONTENT  -->
+<div id="wrapper">
+    
+    <section class="content">
+        <h2>BLOG</h2>
+        <p>Top 10 Meditation Songs</p>
+    </section>
+
+<!--  FOOTER  -->
+<footer>
+    <a href="http://twitter.com/doug"><img src="imgs/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+    <a href="http://facebook.com/doug"><img src="imgs/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+    <p>&copy; 2014 Bumblebee Massage</p>
+</footer>
+
+</div>  <!--  .wrapper  -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
