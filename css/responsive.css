@@ -59,9 +59,14 @@
     margin: 60px;
   }
 
-  section {
+  .content {
     float: left;
     width: 10%;
+  }
+
+  section {
+    width: 90%;
+    margin-left: 90px;
   }
 
   aside {
