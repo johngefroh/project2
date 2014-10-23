@@ -19,9 +19,8 @@ body {
 }
 
 #wrapper {
-max-width: 95%;
-margin: 0 auto;
-padding: 0 5%;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 a {
@@ -94,7 +93,6 @@ FOOTER
 footer {
   clear: both;
   font-size: .80em;
-  padding-top: 50px;
 }
 
 .social-icon {
