@@ -1,4 +1,8 @@
 /****  RESPONSIVE Single Column LAYOUTv****/
+html, body {
+    width: 100%;
+  }
+
 
 @media screen and (mix-width: 480px) {
 
@@ -12,7 +16,6 @@
   /*************************
   HEADER
   **************************/
-  html {height: 100%;}
 
   nav {
     background: none;
@@ -26,44 +29,39 @@
   .logo {
     float: left;
     margin-left: 5%;
-    width: 15%;
+    width: 20%;
   }  
 
- h1 {
+  h1 {
     font-weight: 700;
     font-size: 2em;
   } 
     
   h2 {
     font-weight: 400;
-    font-style: italic;
     font-size: 1.5em;
+    font-style: italic;
   }
 
   header {
     border-bottom: 5px solid black;
-    margin: 60px;
+    margin: 10px;
+  }
+
+  /*.wrapper {
+    position: relative;
+    padding-bottom: 50px;
   }
 
   .content {
     float: left;
-    width: 10%;
-  }
-
-  section {
-    width: 90%;
-    margin-left: 90px;
+    width: 80%;
   }
 
   aside {
-    float: right;
-    width: 10%;
-  }
-
-  footer {
-    width: 100%;
-}
-
+    width: 20%;
+    float: left;
+  }*/
 
 }
 
