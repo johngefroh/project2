@@ -36,7 +36,7 @@ HEADING
 **************************/
 
 header {
-  margin-bottom: px;
+  margin-bottom: 10px;
   border-radius: 5px;
   text-align: center;
 }
@@ -133,8 +133,17 @@ aside p {
 }
 
 /*************************
-PAGE: 
+PAGE: Contact Us
 **************************/
+
+ul.social {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul.social li a {
+    float: left;
+}
 
 /*************************
 PAGE: 
